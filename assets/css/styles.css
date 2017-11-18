@@ -65,13 +65,16 @@ body {
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+  font-family: 'Raleway', sans-serif !important;
 }
 .marketing h2 {
   font-weight: normal;
+  font-family: 'Raleway', sans-serif !important;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .lead {
@@ -91,6 +94,7 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 
