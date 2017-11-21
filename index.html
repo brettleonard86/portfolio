@@ -11,7 +11,12 @@
     <title>Brett Leonard Portfolio</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
     <!-- Custom styles for this template -->
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -19,10 +24,38 @@
     <!-- Custom styles fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+    <!-- Javascript-->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
   </head>
   <body>
 
-    <nav class="navbar navbar-toggleable-md fixed-top bg-inverse">
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand">Portfolio</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="assets/imgs/my-resume.pdf" target="_blank">Resume </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/brett-leonard-27a01658/" target="_blank">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/brettleonard86" target="_blank">GitHub Repo</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://stackexchange.com/users/11096395/brett-leonard" target="_blank">Stack OF</a>
+            </li>
+        </ul>
+       
+      </div>
+    </nav>
+
+
+    <!-- <nav class="navbar navbar-toggleable-md fixed-top bg-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,30 +76,30 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
         <li data-target="#myCarousel" data-slide-to="4"></li>
         <li data-target="#myCarousel" data-slide-to="5"></li>
-        
+
       </ol>
 
       <!-- First Slide -->
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="first-slide" src="assets/imgs/KryptoniteSite2.jpg" alt="First slide">
+          <img class="img-responsive" href="https://brettleonard86.github.io/week-4-game/" target="_blank" src="assets/imgs/KryptoniteSite2.jpg" alt="First slide" >
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
               <h1>jQuery Game</h1>
               <p></p>
-              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/week-4-game/" role="button">Play Game</a></p>
+              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/week-4-game/" role="button" target="_blank">Play Game</a></p>
             </div>
           </div>
         </div>
@@ -78,7 +111,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h1>Triva Game - JavaScript and jQuery</h1>
               <p></p>
-              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/TriviaGame/" role="button">Play Game</a></p>
+              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/TriviaGame/" role="button" target="_blank">Play Game</a></p>
             </div>
           </div>
         </div>
@@ -90,7 +123,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h1>Giftasic - API usage with JavaScript and jQuery</h1>
               <p></p>
-              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/giftastic/" role="button">See Giftasic</a></p>
+              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/giftastic/" role="button" target="_blank">See Giftasic</a></p>
             </div>
           </div>
         </div>
@@ -102,7 +135,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h1>Famous Quotes by Yoda</h1>
               <p></p>
-              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/projectOne/" role="button">Use the Force...</a></p>
+              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/projectOne/" role="button" target="_blank">Use the Force...</a></p>
             </div>
           </div>
         </div>
@@ -114,19 +147,19 @@
             <div class="carousel-caption d-none d-md-block">
               <h1>Train Scheduler</h1>
               <p></p>
-              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/TrainScheduler/" role="button">Schedule away</a></p>
+              <p><a class="btn btn-danger btn-lg" href="https://brettleonard86.github.io/TrainScheduler/" role="button" target="_blank">Schedule away</a></p>
             </div>
           </div>
         </div>
 
         <!-- Sixth Slide -->
         <div class="carousel-item">
-          <img class="sixth-slide" src="assets/imgs/telstarSite.mp4" alt="Sixth slide" type="video/mp4">
+          <img class="sixth-slide" id="theme" src="assets/imgs/telstarSite2.png" alt="Sixth slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Telstar Soccer - Group Project</h1>
+              <h1>Telstar Soccer - Full Stack Group Project</h1>
               <p></p>
-              <p><a class="btn btn-danger btn-lg" href="https://telstar-alliance.herokuapp.com/index" role="button">Check It Out</a></p>
+              <p><a class="btn btn-danger btn-lg" href="https://telstar-alliance.herokuapp.com/index" role="button" target="_blank">Check It Out</a></p>
             </div>
           </div>
         </div>
@@ -199,6 +232,8 @@
         <p class="float-right">&copy; 2017 Brett Leonard &middot; <a href="#">Back to top</a></p>
         <p>Contact Me: brettleonard86@gmail.com &middot; 785-766-0435</p>
       </footer>
+
+      
 
     </div><!-- /.container -->
 
